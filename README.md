@@ -22,14 +22,18 @@ The code should return the most common words used and the number of times they a
    ```
 
 2. Start program:
-   Update url and exception as well as the WORDS_RETURN
+   You can update url and exclude list as well as the WORDS_RETURN and run the run.py directly on your IDE or run it on terminal as syntax
+   ```bash
+   python run.py [url] ['word1, word2, word3' or '[word1, word2, word3]']
 
+   ``` 
+   Example:
    ```bash
    python run.py
    python run.py https://en.wikipedia.org/wiki/Microsoft#History ['in','on']
    python run.py https://en.wikipedia.org/wiki/Microsoft#History "in, on"
    ```
-3. Run Tests
+4. Run Tests
    Run test example with all test cases
 
    ```bash
