@@ -31,15 +31,18 @@ Page to crawl
 https://en.wikipedia.org/wiki/Microsoft
 Only words from the section “history” should be accounted for.
 Example of the expected result
-	# of occurrences
-The	205
-Microsoft	113
-in	110
-of	88
-and	88
-a	81
-to	79
-on	59
-Windows	55
-for	50
+```bash
+# of | occurrences
+The  | 	205
+Microsoft   |	113
+in   |	110
+of   |	88
+and  |	88
+a    |	81
+to   |	79
+on   |	59
+Windows   |	55
+for   |	50
+```
+	
 
