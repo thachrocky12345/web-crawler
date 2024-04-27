@@ -10,20 +10,21 @@ The code should return the most common words used and the number of times they a
 1. Install 
 
    ```bash
-   pip install 
+   pip install -r requirements.txt
    ```
 
 2. Start program:
    Update url and exception as well as the WORDS_RETURN
 
    ```bash
-   python run.py 
+   python run.py
+   python run.py https://en.wikipedia.org/wiki/Microsoft#History ['in', 'on']
    ```
 3. Run Tests
    Run test example with all test cases
 
    ```bash
-   python run.py 
+   python -m unittest tests
    ```
 ## Example:
 
@@ -32,17 +33,22 @@ https://en.wikipedia.org/wiki/Microsoft
 Only words from the section “history” should be accounted for.
 Example of the expected result
 ```bash
-| # of | occurrences
-| The  | 	205
-| Microsoft   |	113
-| in   |	110
-| of   |	88
-| and  |	88
-| a    |	81
-| to   |	79
-| on   |	59
-| Windows   |	55
-| for   |	50
+python run.py https://en.wikipedia.org/wiki/Microsoft#History ['in','on']
+
+--------------------------------
+| # of            | occurrences |
+| the             |        979 |
+| microsoft       |        608 |
+| of              |        371 |
+| to              |        357 |
+| and             |        317 |
+| retrieved       |        271 |
+| from            |        265 |
+| a               |        258 |
+| archived        |        211 |
+| original        |        205 |
+--------------------------------
+
 ```
 	
 
