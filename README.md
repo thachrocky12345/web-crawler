@@ -4,6 +4,14 @@ The code should return the most common words used and the number of times they a
 1. The number of words to return is set on WORDS_RETURN (default: 10)
 2. Words to exclude from the search. It can be string or list. Example: ["excellent", "linux"] or "excellent, linux"
 
+## Dependencies
+
+This function requires the following Python modules:
+
+requests: For making HTTP requests to fetch the webpage content.
+bs4 (BeautifulSoup): For parsing HTML content and extracting text.
+re: For splitting text into words using regular expressions.
+collections.Counter: For counting word frequency.
 
 ## Quick Start
 
