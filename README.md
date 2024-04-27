@@ -6,12 +6,12 @@ The code should return the most common words used and the number of times they a
 
 ## Dependencies
 
-This function requires the following Python modules:
+### This function requires the following Python modules:
 
-requests: For making HTTP requests to fetch the webpage content.
-bs4 (BeautifulSoup): For parsing HTML content and extracting text.
-re: For splitting text into words using regular expressions.
-collections.Counter: For counting word frequency.
+- requests: For making HTTP requests to fetch the webpage content.
+- bs4 (BeautifulSoup): For parsing HTML content and extracting text.
+- re: For splitting text into words using regular expressions.
+- collections.Counter: For counting word frequency.
 
 ## Quick Start
 
