@@ -26,7 +26,8 @@ The code should return the most common words used and the number of times they a
 
    ```bash
    python run.py
-   python run.py https://en.wikipedia.org/wiki/Microsoft#History ['in', 'on']
+   python run.py https://en.wikipedia.org/wiki/Microsoft#History ['in','on']
+   python run.py https://en.wikipedia.org/wiki/Microsoft#History "in, on"
    ```
 3. Run Tests
    Run test example with all test cases
